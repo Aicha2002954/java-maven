@@ -7,7 +7,7 @@ pipeline {
                 // clean the directory
                 sh "rm -rf *"
                 // Checkout the Git repository
-                sh "git clone https://github.com/simoks/java-maven.git"
+                sh "git clone https://github.com/Aicha2002954/java-maven.git"
             }
         }
         stage('Build') {
